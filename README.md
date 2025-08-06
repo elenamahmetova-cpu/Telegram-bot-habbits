@@ -1,6 +1,7 @@
 # Telegram-bot-habbits
 Бот помогает формировать привычки через ежедневные напоминания. Технологии: python-telegram-bot, SQLAlchemy, APScheduler. Фичи: Статистика, уведомления, мотивационные цитаты.  
 Пример кода обработчика команд:
+
 from telegram.ext import CommandHandler, Updater
 from db import Habit, Session
 
